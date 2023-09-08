@@ -36,8 +36,82 @@
       
     </ol>
 <h2>Форма</h2>
-    <form action="
-
-    
+<form action="https://www.example.com" method="POST"  id="form">          
+    <label>
+           Имя:<br>
+          <input name="field-name-1" placeholder="Николай" type="name">
+        </label><br>
+       
+          <label>
+             Email:<br>
+             <input name="field-email" placeholder="nik.gavranek@gmail.com" type="email">
+          </label><br>
+             <label>
+             Дата рождения:<br>
+             <input name="field-date" value="2002-11-11" type="date">
+          </label><br>Количество конечностей:<br>
+          <label>
+              <input type="radio" name="radio-group-1" value="1">
+              1
+          </label>
+          <label>
+              <input type="radio" name="radio-group-1" value="2">
+              2
+          </label>
+          <label>
+              <input type="radio" name="radio-group-1" value="3">
+              3
+          </label>
+          <label>
+              <input type="radio"  name="radio-group-1" value="4">
+              4
+          </label>
+          <label>
+            <input type="radio" checked="checked" name="radio-group-1" value="5">
+            5
+        </label>
+          <br>
+               Пол:<br>
+               <label>
+                   <input type="radio" name="radio-group-2" value="М">
+                   М
+               </label>
+               <label>
+                   <input type="radio" name="radio-group-2" value="Ж">
+                   Ж
+               </label>
+               <label>
+                   <input type="radio" name="radio-group-2" value="Вертолёт">
+                   Вертолёт
+               </label>
+        
+               </label><br>
+               <label>
+                Сверхспособности:
+                <br />
+                <select name="field-name[]" multiple="multiple" size="3">
+                  <option value="Значение 1">Бессмертие</option>
+                  <option value="Значение 2">Прохождение сквозь стены</option>
+                  <option value="Значение 3">Левитация</option>
+                </select>
+              </label><br>
+               <label>
+                 Биография:<br>
+                 <textarea > </textarea>
+                  
+                  
+               </label><br>
+               С контрактом ознакомлен(а):<br>
+               <label>
+                   <input type="checkbox" checked="checked" name="check-1">
+               </label><br>
+               <input type="submit" value="Отправить">
+           </form>
+</div>
+  <footer class="footer" id="footer">
+    <div class="footer__inner">
+        <span>(c) Николай Гавранек 2022</span>
+    </div>
+</footer>
   </body>
 </html>
