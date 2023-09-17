@@ -31,7 +31,9 @@ nadiv{
    max-width: 960px;
    text-align: center;
 }
-
+caption{
+   text-align: center;
+}
 v ul li{
    margin:0 auto;
    border: 2px solid #000000;
