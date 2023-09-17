@@ -4,8 +4,8 @@
 margin: 0;
  }
  body{
- color:#4B0082;
-   background-color:	#a484f6;
+ color:green;
+   background-color:	green;
 
  }
  .page-nav{
@@ -58,7 +58,7 @@ margin: 0;
  a:hover{
      text-decoration: underline;
  }
- .table{
+ table{
      border-collapse: collapse;
      border: 1px solid black;
      
@@ -70,19 +70,6 @@ margin: 0;
   margin: 0 auto;
   padding:0 auto;
      align-items: center;
- }
- input, select, textarea{
-     outline: none;
-     border: 1px solid#e5e5e5;
- }
- input[type=submit],[type=radio], [type=date]{
-     cursor: pointer;
- }
- input[type=submit]{
-     background-color: rgb(0, 255, 0);
- }
- textarea{
-     resize: none;
  }
  header{
      background-color: rgb(70, 174, 167);
