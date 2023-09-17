@@ -1,21 +1,21 @@
 { 
    font-size: 20px;
-   box-sizing: border-box;
-   margin: 0;
+     box-sizing: border-box;
+margin: 0;
  }
  body{
-    color:#00ffff;
-    background-color:black;
+ color:#4B0082;
+   background-color:	#a484f6;
 
  }
- page-nav{
-   max-width: 700px;
-   border: 3px solid #008080;
-   margin-right: 70%;
-   background-color: #00ffff;
+ .page-nav{
+   max-width: 960px;
+   border: 3px solid #000000;
+   margin-left: 20%;
+   background-color: rgba(30, 212, 166, 0.47);
 
  }
- page-nav li {
+ .page-nav li {
 
    display: inline-block;
    margin: 5px 30px 0 0;
@@ -38,7 +38,7 @@
    margin: 0 auto;
    max-width: 960px;
  }
- link  {
+ .link  {
   margin: 0 auto;
   flex-direction: column;
  }
@@ -58,7 +58,7 @@
  a:hover{
      text-decoration: underline;
  }
- table{
+ .table{
      border-collapse: collapse;
      border: 1px solid black;
      
@@ -85,30 +85,30 @@
      resize: none;
  }
  header{
-     background-color: blue;
+     background-color: rgb(70, 174, 167);
 border-bottom: 5px solid #000000;
  }
- main {
+ #main {
    background-color: rgb(140, 239, 232);
 border: 5px solid #000000;
 }
   img {
      border: 3px solid #000000;
    }
-   header_cont {
+   .header_cont {
      padding: 15px 10px 0 10px;
      clear: both;
    }
-   header_cont div {
+   .header_cont div {
      display: inline-block;
      padding: 25px 0 0 10px;
    }
- container{
+ .container{
      width: 100%;
  }
  tr:nth-child(even){
      background-color: #621ff4;
  }
- footer{
+ .footer{
      background-color: rgb(70, 174, 167);
  } 
