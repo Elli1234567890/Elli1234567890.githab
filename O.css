@@ -5,17 +5,17 @@ margin: 0;
  }
  body{
  color:green;
-   background-color:	green;
+   background-color:black;
 
  }
- .page-nav{
+ page-nav{
    max-width: 960px;
    border: 3px solid #000000;
    margin-left: 20%;
    background-color: rgba(30, 212, 166, 0.47);
 
  }
- .page-nav li {
+ page-nav li {
 
    display: inline-block;
    margin: 5px 30px 0 0;
@@ -38,7 +38,7 @@ margin: 0;
    margin: 0 auto;
    max-width: 960px;
  }
- .link  {
+ link  {
   margin: 0 auto;
   flex-direction: column;
  }
