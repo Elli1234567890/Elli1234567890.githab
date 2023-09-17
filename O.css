@@ -1,11 +1,11 @@
- *{ 
+{ 
    font-size: 20px;
      box-sizing: border-box;
 margin: 0;
  }
  body{
- color:#4B0082;
-   background-color:	#a484f6;
+ color:blue;
+   background-color:	black;
 
  }
  .page-nav{
