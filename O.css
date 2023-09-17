@@ -9,10 +9,10 @@
 
  }
  page-nav{
-   max-width: 960px;
-   border: 3px solid #00ffff;
-   margin-left: 20%;
-   background-color: rgba(30, 212, 166, 0.47);
+   max-width: 700px;
+   border: 3px solid #008080;
+   margin-left: 0%;
+   background-color: rgba(0, 0, 255, 0.5);
 
  }
  page-nav li {
