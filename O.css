@@ -108,6 +108,10 @@ container{
      width: 100%;
 }
 
+tr{
+    text-align: center;
+}
+
  tr:nth-child(even){
      background-color: yellow;
 }
