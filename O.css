@@ -26,11 +26,6 @@ page-nav li{
    border: 2px solid #000000;
 }
 
-nadiv{
-   margin: 0 auto;
-   max-width: 960px;
-   text-align: center;
-}
 caption{
    text-align: center;
 }
@@ -70,7 +65,7 @@ v ul li{
      border: 1px solid black;
  }
  header{
-     background-color: rgb(70, 174, 167);
+     background-color: rgb(70, 164, 157);
 border-bottom: 5px solid #000000;
  }
  
@@ -86,11 +81,10 @@ header_cont div {
      padding: 25px 0 0 10px;
    }
 
-
-link  {
+link{
   margin: 0 auto;
   flex-direction: column;
- }
+}
 
 
  tr:nth-child(even){
