@@ -59,6 +59,7 @@ v ul li{
  table{
      border-collapse: collapse;
      border: 1px solid black;
+    text-align: center;
      
  }
  th, td{
@@ -67,6 +68,7 @@ v ul li{
  header{
      background-color: rgb(70, 164, 157);
 border-bottom: 5px solid #000000;
+    text-align: center;
  }
  
   img {
@@ -92,6 +94,7 @@ link{
  }
  footer{
      background-color:green;
+    text-align: center;
  } 
 
 
