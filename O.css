@@ -1,18 +1,18 @@
-{ 
+ { 
    font-size: 20px;
      box-sizing: border-box;
 margin: 0;
  }
  body{
- color:blue;
-   background-color:	yellow;
+ color:#4B0082;
+   background-color:	#a484f6;
 
  }
  .page-nav{
    max-width: 960px;
    border: 3px solid #000000;
    margin-left: 20%;
-   background-color: red(30, 212, 166, 0.47);
+   background-color: rgba(30, 212, 166, 0.47);
 
  }
  .page-nav li {
@@ -21,7 +21,7 @@ margin: 0;
    margin: 5px 30px 0 0;
    width: 250px;
    border: 3px solid #759cd8;
-   background-color: white;
+   background-color: #8b31c4;
    padding: 10px;
    border: 2px solid #000000;
  }
@@ -29,7 +29,7 @@ margin: 0;
  nav ul li {
    margin:0 auto;
    border: 2px solid #000000;
-   background-color: green;
+   background-color: #e799f17c;
    min-height: 20px;
    width: 50%;
    text-align: center;
