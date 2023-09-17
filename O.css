@@ -11,8 +11,8 @@
  page-nav{
    max-width: 700px;
    border: 3px solid #008080;
-   margin-left: 0%;
-   background-color: rgba(0, 0, 255, 0.5);
+   margin-right: 70%;
+   background-color: black;
 
  }
  page-nav li {
@@ -58,7 +58,7 @@
  a:hover{
      text-decoration: underline;
  }
- .table{
+ table{
      border-collapse: collapse;
      border: 1px solid black;
      
@@ -85,7 +85,7 @@
      resize: none;
  }
  header{
-     background-color: rgb(70, 174, 167);
+     background-color: blue;
 border-bottom: 5px solid #000000;
  }
  main {
