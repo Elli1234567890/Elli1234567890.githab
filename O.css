@@ -88,7 +88,7 @@ header_cont div {
  container{
      width: 100%;
  }
- tr{
+ tr:nth-child(even){
      background-color: yellow;
  }
  footer{
