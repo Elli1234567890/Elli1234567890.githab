@@ -87,7 +87,10 @@ header_cont div {
    }
 
 
-
+link  {
+  margin: 0 auto;
+  flex-direction: column;
+ }
 
 
  tr:nth-child(even){
