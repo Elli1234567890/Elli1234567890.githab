@@ -79,7 +79,7 @@ margin: 0;
      cursor: pointer;
  }
  input[type=submit]{
-     background-color: rgb(255, 255, 255);
+     background-color: rgb(0, 255, 0);
  }
  textarea{
      resize: none;
@@ -93,22 +93,22 @@ border-bottom: 5px solid #000000;
 border: 5px solid #000000;
 }
   img {
-     border: 3px solid #000000;
+     border: 5px solid #000000;
    }
-   .header_cont {
+header_cont {
      padding: 15px 10px 0 10px;
      clear: both;
    }
-   .header_cont div {
+header_cont div {
      display: inline-block;
      padding: 25px 0 0 10px;
    }
- .container{
+ container{
      width: 100%;
  }
  tr:nth-child(even){
-     background-color: #621ff4;
+     background-color: yellow;
  }
- .footer{
-     background-color: rgb(70, 174, 167);
+ footer{
+     background-color:green;
  } 
