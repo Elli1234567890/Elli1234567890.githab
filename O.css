@@ -67,10 +67,6 @@ body{
     border: 2px solid #000000;
 }
 
-.caption{
-    text-align: center;
-}
-
 .nav{
     margin-top:7%;
     min-height: 20px;
