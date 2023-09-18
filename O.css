@@ -71,11 +71,10 @@ body{
 }
 
 .nav{
-    margin:80%;
-    border: 2px solid #000000;
-    #e799f17c;
+    margin-top:7%;
     min-height: 20px;
-    width: 50%;
+    width: 80%;
+    background-color:yellow;
     text-align: center;
 }
 
