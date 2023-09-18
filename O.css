@@ -140,7 +140,7 @@ display: block;
      background-color:yellow;
     padding-bottom: 73px;
 padding-left: 27px;
-     text-align:justify;
+  text-align: center;
 }
 
 
@@ -151,9 +151,11 @@ padding-left: 27px;
 
  .table{
      display: block;
+     text-align:justify;
      translate (-50%, -50%)
      border-collapse: yellow;
-     border: 1px solid black;
+     display: inline-block;
+     border: 2px solid black;
      
  }
    th, td{
