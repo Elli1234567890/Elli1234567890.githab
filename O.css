@@ -102,11 +102,11 @@ body{
 }
  
 .table{
-
- max-width: 666px;
-  background-color:green;
-  margin-top: 2%;
-  margin-bottom: 2%;
+display: block;
+     background-color:yellow;
+    padding-bottom: 73px;
+padding-left: 27px;
+     text-align: center;
     
     
 }
