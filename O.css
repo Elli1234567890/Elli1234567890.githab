@@ -150,14 +150,12 @@ body{
 }
 
 .footer{
+    display: block;
      background-color:#32a852;
+    padding-bottom: 73px;
+padding-left: 27px;
      text-align: center;
 } 
-
-
-
-
-
 
 
 
