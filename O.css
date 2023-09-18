@@ -23,6 +23,18 @@
     line-height: 150px;
 }
 
+#reference {
+    float: right;
+    padding-right: 17%;
+    line-height: 150px;
+}
+
+#reference1, #reference2 {
+    float: right;
+    padding-right: 10px;
+    line-height: 150px;
+}
+
 body{
     color:black;
     rgb(50, 168, 82);
