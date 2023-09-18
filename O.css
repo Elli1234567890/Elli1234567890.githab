@@ -149,16 +149,19 @@ padding-left: 27px;
 
 
  .table{
-     border-collapse: collapse;
+     border-collapse: yellow;
      border: 1px solid black;
+     text-align: center;
      
  }
    th, td{
      border: 1px solid black;
+       text-align: center;
  } 
 
- tr:nth-child(even){
-     background-color: #621ff4;
+ tr:nth-child{
+     background-color: green;
+     text-align: center;
  }
 
     
