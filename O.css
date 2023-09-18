@@ -5,15 +5,15 @@
 }
 
 #logotype{
-    height: 100px;
-    width: 100px;
+    height: 15px;
+    width: 15px;
     float: left;
     padding-left: 17%;
 }
 
 #name{
     float: left;
-    paddingleft: 10px;
+    padding-left: 10px;
 }
 
 body{
