@@ -153,13 +153,8 @@ display: block;
        text-align: center;
  } 
 
-
-.even-cells {
-  background-color: rgb(50, 168, 82);
-}
-   
-.odd-cells {
-  background-color: yellow;
+tr:nth-child(even){
+     background-color: yellow;
 }
 
 .footer{
