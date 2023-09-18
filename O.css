@@ -146,11 +146,14 @@ body{
 }
 
 .tr{
-    text-align: center;
+    .table-content {
+  max-width:500px; 
+  background-color:yellow;
+  padding-left: 5%;
 }
 
 .tr:nth-child(even){
-     background-color: yellow;
+     background-color:green;
 }
 
 .form{
