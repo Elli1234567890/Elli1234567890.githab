@@ -62,8 +62,7 @@ body{
     display: inline-block;
     margin: 5px 30px 0 0;
     width: 250px;
-    border: 3px solid #759cd8;
-    #8b31c4;
+    border: 3px solid #32a852;
     padding: 10px;
     border: 2px solid #000000;
 }
@@ -102,8 +101,6 @@ body{
    display: block;
    color: #000000;  
 }
- 
-
 
 .header{
     background-color: rgb(70, 164, 157);
@@ -134,21 +131,13 @@ body{
      width: 100%;
 }
 
-
-
 .form{
 display: block;
-     background-color:rgb(50, 168, 82);
+    background-color:rgb(50, 168, 82);
     padding-bottom: 73px;
-padding-left: 27px;
-  text-align: center;
+    padding-left: 27px;
+    text-align: center;
 }
-
-
-
-
-
-
 
  .table{
      display: block;
@@ -156,9 +145,9 @@ padding-left: 27px;
      translate (-50%, -50%)
      border-collapse: yellow;
      display: inline-block;
-     border: 2px solid black;
-     
+     border: 2px solid black; 
  }
+
    th, td{
      border: 1px solid black;
        text-align: center;
@@ -167,13 +156,14 @@ padding-left: 27px;
 
 .even-cells {
   background-color: rgb(50, 168, 82);
+}
+   
 .odd-cells {
   background-color: yellow;
 }
-    
+
 .footer{
     display: block;
-     background-color:#32a852;
-    
-     text-align: center;
+    background-color:#32a852;
+    text-align: center;
 } 
