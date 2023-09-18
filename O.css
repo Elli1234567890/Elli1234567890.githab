@@ -101,20 +101,7 @@ body{
    color: #000000;  
 }
  
-.table{
-display: block;
-     background-color:yellow;
-    padding-bottom: 73px;
-padding-left: 27px;
-     text-align: center;
-    
-    
-}
 
-.th, td{
-    border: 1px solid black;
-     text-align: center;
-}
 
 .header{
     background-color: rgb(70, 164, 157);
@@ -145,16 +132,7 @@ padding-left: 27px;
      width: 100%;
 }
 
-.tr{
-    .table-content {
-  max-width:500px; 
-  background-color:yellow;
-  padding-left: 5%;
-}
 
-.tr:nth-child(even){
-     background-color:green;
-}
 
 .form{
 display: block;
@@ -164,6 +142,29 @@ padding-left: 27px;
      text-align: center;
 }
 
+
+
+.table {
+  max-width: 800px;
+  background-color:rgba(66,66,58,0.2);
+  margin-top: 2%;
+  margin-bottom: 2%;
+  <!--background-color: rgba(20,56,22,0.5);-->
+}
+.table-content {
+  max-width:500px; 
+  background-color:rgba(58,61,58,0.5);
+  padding-left: 5%;
+}
+
+.even-cells {
+  background-color: rgba(66,66,58,0.3); <!-- rgba(20,56,22,0.5) на фоне #1B002D = #111c22 -->
+}
+.odd-cells {
+  background-color: rgba(66,66,50,0.3);
+}
+
+    
 .footer{
     display: block;
      background-color:#32a852;
