@@ -1,0 +1,177 @@
+*{ 
+    color:black;
+    margin: 0;
+    text-align: center;
+}
+
+#header{
+    width: 100%;
+    height: 150px;
+    background-color: yellow;
+}
+
+#logotype{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-left: 17%;
+    margin-top:25px;
+}
+
+#name{
+    float: left;
+    padding-left: 10px;
+    line-height: 150px;
+}
+
+#reference {
+    float: right;
+    padding-right: 17%;
+    line-height: 150px;
+    font-size: 20px;
+}
+
+#reference1, #reference2 {
+    float: right;
+    padding-right: 10px;
+    line-height: 150px;
+    font-size: 20px;
+}
+
+body{
+    color:black;
+    background-color:rgb(50, 168, 82);
+    text-align: center;
+}
+
+.tbody{
+    color:black;
+    background-color:rgb(50, 168, 82);
+    text-align: center;
+}
+
+.page-nav{
+    max-width: 960px;
+    border: 3px solid #000000;
+    margin-left: 90%;
+    background-color:rgba(30, 212, 166, 0.37);
+}
+
+.page-nav li {
+    display: inline-block;
+    margin: 5px 30px 0 0;
+    width: 250px;
+    border: 3px solid #759cd8;
+    #8b31c4;
+    padding: 10px;
+    border: 2px solid #000000;
+}
+
+.caption{
+    text-align: center;
+}
+
+.nav{
+    margin-top:7%;
+    min-height: 20px;
+    width: 80%;
+    background-color:yellow;
+    text-align: center;
+}
+
+.link{
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+}
+
+.li{
+    margin:10px auto;
+    text-align: center;
+}
+
+.ul{
+    margin: 0 auto;
+    display:inline-flex; 
+    list-style-type: none;
+    text-align: center;
+}
+
+.a{
+   display: block;
+   color: #000000;  
+}
+ 
+
+
+.header{
+    background-color: rgb(70, 164, 157);
+    border-bottom: 5px solid #000000;
+    text-align: center;
+ }
+ 
+.img {
+    border: 5px solid #000000;
+}
+
+.header_cont {
+    padding: 15px 10px 0 10px;
+    clear: both;
+}
+
+.header_cont div {
+    display: inline-block;
+    padding: 25px 0 0 10px;
+}
+
+.link{
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.container{
+     width: 100%;
+}
+
+
+
+.form{
+display: block;
+     background-color:yellow;
+    padding-bottom: 73px;
+padding-left: 27px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+ .table{
+     display: block;
+     text-align:justify;
+     translate (-50%, -50%)
+     border-collapse: yellow;
+     display: inline-block;
+     border: 2px solid black;
+     
+ }
+   th, td{
+     border: 1px solid black;
+       text-align: center;
+ } 
+
+ tr:nth-child{
+     background-color: green;
+     text-align: center;
+ }
+
+    
+.footer{
+    display: block;
+     background-color:#32a852;
+    
+     text-align: center;
+} 
