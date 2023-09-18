@@ -102,9 +102,13 @@ body{
 }
  
 .table{
-    margin:auto;
-    border: 1px solid black;
-    backgound-color: #fff;
+
+ max-width: 666px;
+  background-color:green;
+  margin-top: 2%;
+  margin-bottom: 2%;
+    
+    
 }
 
 .th, td{
