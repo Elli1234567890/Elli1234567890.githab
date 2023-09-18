@@ -147,7 +147,10 @@ padding-left: 27px;
 
  .table{
      display: block;
-     text-align:justify;
+     margin-top:17px;
+        margin-bottom:17px;
+     margin-left:17px;
+     matgin-right:17px;
      translate (-50%, -50%)
      border-collapse: yellow;
      display: inline-block;
