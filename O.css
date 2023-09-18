@@ -71,8 +71,8 @@ body{
  
 .table{
     margin:auto;
-    border-collapse: collapse;
     border: 1px solid black;
+    backgound-color: #fff;
 }
 
 .th, td{
