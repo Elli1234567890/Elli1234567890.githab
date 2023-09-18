@@ -151,7 +151,7 @@ padding-left: 27px;
 
  .table{
      display: block;
-     text-align:justify;
+     margin: 15px 15px 15px 15 px;
      translate (-50%, -50%)
      border-collapse: yellow;
      display: inline-block;
