@@ -152,10 +152,8 @@ body{
 .form{
 display: block;
      background-color:yellow;
-    
-    padding-left: 2%;
-  margin-top: 2%;
-  margin-bottom: 2%;
+    padding-bottom: 73px;
+padding-left: 27px;
      text-align: center;
 }
 
