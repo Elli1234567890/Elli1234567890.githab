@@ -29,6 +29,7 @@
     padding-right: 17%;
     line-height: 150px;
     font-size: 20px;
+    text-allgn:
 }
 
 #reference1, #reference2 {
@@ -54,7 +55,7 @@ body{
     max-width: 960px;
     border: 3px solid #000000;
     margin-left: 90%;
-    background-color:rgba(30, 212, 166, 0.37);
+    background-color:rgb(50, 168, 82));
 }
 
 .page-nav li {
@@ -137,7 +138,7 @@ body{
 
 .form{
 display: block;
-     background-color:yellow;
+     background-color:rgb(50, 168, 82);
     padding-bottom: 73px;
 padding-left: 27px;
   text-align: center;
@@ -165,10 +166,9 @@ padding-left: 27px;
 
 
 .even-cells {
-  background-color: rgba(66,66,58,0.3); <!-- rgba(20,56,22,0.5) на фоне #1B002D = #111c22 -->
-}
+  background-color: rgb(50, 168, 82);
 .odd-cells {
-  background-color: rgba(66,66,50,0.3);
+  background-color: yellow;
 }
     
 .footer{
