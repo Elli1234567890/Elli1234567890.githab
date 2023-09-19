@@ -132,26 +132,15 @@ body{
      width: 100%;
 }
 
-.div{
-display: block;
-max-width:780px;
-
-    
-     
-    margin: 15px 15px 15px 15px;
-    padding:10px;
-    background-color: rgb(245, 56, 157);
-    text-align: center;
-}
-
-
 .form{
 display: block;
 max-width:200px;
 
     
      
-    margin: 15px 15px 15px 15px;
+    
+    margin: 0 auto;
+    margin-top:20px;
     padding:10px;
     background-color: rgb(245, 56, 157);
     text-align: center;
@@ -159,19 +148,14 @@ max-width:200px;
 
 .table{
      display: block;
-    max-width:600px;
-
-    
-     
-    margin: 15px 15px 15px 15px;
-    padding:10px;
-    background-color: rgb(245, 56, 157);
+     margin: 15px 15px 15px 15px;
      display: inline-block;
-     border-collapse: black;
+     border-collapse: rgb(92, 244, 255);
      border: medium;
-     border-style: solid;
-      rgb(92, 244, 255)
+	 border-style: solid;
+      
  }
+border: 2px solid black;
    th, td{
      border: 1px solid black;
        text-align: center;
@@ -183,13 +167,7 @@ tr:nth-child(even){
 
 .footer{
     display: block;
-    max-width:200px;
-
-    
-     
-    margin: 15px 15px 15px 15px;
-    padding:10px;
-    background-color: rgb(245, 56, 157);
+    background-color: rgb(162, 110, 229);
     text-align: center;
 } 
-        
+	
