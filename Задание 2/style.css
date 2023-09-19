@@ -132,6 +132,19 @@ body{
      width: 100%;
 }
 
+.div{
+display: block;
+max-width:780px;
+
+    
+     
+    margin: 15px 15px 15px 15px;
+    padding:10px;
+    background-color: rgb(245, 56, 157);
+    text-align: center;
+}
+
+
 .form{
 display: block;
 max-width:200px;
@@ -146,7 +159,13 @@ max-width:200px;
 
 .table{
      display: block;
-     margin: 15px 15px 15px 15px;
+    max-width:600px;
+
+    
+     
+    margin: 15px 15px 15px 15px;
+    padding:10px;
+    background-color: rgb(245, 56, 157);
      display: inline-block;
      border-collapse: black;
      border: medium;
@@ -164,10 +183,13 @@ tr:nth-child(even){
 
 .footer{
     display: block;
-    max-width:400px;
+    max-width:200px;
 
+    
+     
     margin: 15px 15px 15px 15px;
-    background-color: rgb(162, 110, 229);
+    padding:10px;
+    background-color: rgb(245, 56, 157);
     text-align: center;
 } 
         
