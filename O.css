@@ -134,14 +134,14 @@ body{
 .form{
 display: block;
      background-color:yellow;
+    
     padding-bottom: 73px;
 padding-left: 27px;
+max-width:500px;
+
+    
   text-align: center;
 }
-
-
-
-
 
 
 
