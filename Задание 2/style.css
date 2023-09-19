@@ -148,12 +148,11 @@ max-width:200px;
      display: block;
      margin: 15px 15px 15px 15px;
      display: inline-block;
-     border-collapse: rgb(92, 244, 255);
+     border-collapse: black;
      border: medium;
      border-style: solid;
-      
+      rgb(92, 244, 255)
  }
-border: 2px solid black;
    th, td{
      border: 1px solid black;
        text-align: center;
