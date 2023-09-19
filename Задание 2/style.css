@@ -148,12 +148,12 @@ max-width:200px;
  .table{
      display: block;
      margin: 15px 15px 15px 15px;
-     
-     border-collapse: yellow;
      display: inline-block;
-     border: 2px solid black; 
+     border-collapse: yellow;
+     
+      
  }
-
+border: 2px solid black;
    th, td{
      border: 1px solid black;
        text-align: center;
