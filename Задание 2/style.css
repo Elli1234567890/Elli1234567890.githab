@@ -135,6 +135,8 @@ body{
 display: block;
 max-width:200px;
 
+    display: inline-block;
+     border: 2px solid black; 
     
     margin: 0 auto;
     margin-top:20px;
@@ -145,8 +147,8 @@ max-width:200px;
 
  .table{
      display: block;
-     margin: 15px 15px 15px 15 px;
-     translate (-50%, -50%)
+     margin: 15px 15px 15px 15px;
+     
      border-collapse: yellow;
      display: inline-block;
      border: 2px solid black; 
