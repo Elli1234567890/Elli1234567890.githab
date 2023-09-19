@@ -133,13 +133,13 @@ body{
 
 .form{
 display: block;
-max-width: 600px;
+max-width:400px;
 
     
     margin: 0 auto;
     margin-top:20px;
     padding:10px;
-    background-color:yellow;
+    background-color:green;
     text-align: center;
 }
 
