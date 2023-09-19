@@ -1,173 +1,169 @@
 *{ 
-    color:black;
-    margin: 0;
-    text-align: center;
+	color:black;
+	margin: 0;
+	text-align: center;
 }
 
 #header{
-    width: 100%;
-    height: 150px;
-    background-color: rgb(228, 157, 235);
+	width: 100%;
+	height: 150px;
+	background-color: rgb(228, 157, 235);
 }
 
 #logotype{
-    height: 125px;
-    width: 175px;
-    float: left;
-    margin-left: 5%;
-    margin-top:12.5px;
+	height: 125px;
+	width: 175px;
+	float: left;
+	margin-left: 5%;
+	margin-top:12.5px;
 }
 
 #name{
-    float: left;
-    padding-left: 40px;
-    line-height: 165px;
+	float: left;
+	padding-left: 40px;
+	line-height: 165px;
 	font-weight: 700;
 	font-size: 1.25em
 }
 
 #reference {
-    float: right;
-    padding-right: 5%;
-    line-height: 50px;
-    font-size: 20px;
+	float: right;
+	padding-right: 5%;
+	line-height: 50px;
+	font-size: 20px;
 }
 
 #reference1, #reference2 {
-    float: right;
-    padding-right: 50px;
-    line-height: 50px;
-    font-size: 20px;
+	float: right;
+	padding-right: 50px;
+	line-height: 50px;
+	font-size: 20px;
 }
 
 body{
-    color:black;
-    background-color:rgb(174, 181, 245);
-    text-align: center;
+	color:black;
+	background-color:rgb(174, 181, 245);
+	text-align: center;
 }
 
 .tbody{
-    color:black;
-    background-color:rgb(174, 181, 245);
-    text-align: center;
+	color:black;
+	background-color:rgb(174, 181, 245);
+	text-align: center;
 }
 
 .page-nav{
-    max-width: 960px;
-    border: 3px solid #000000;
-    margin-left: 90%;
-    background-color:rgb(174, 181, 245);
+	max-width: 960px;
+	border: 3px solid #000000;
+	margin-left: 90%;
+	background-color:rgb(174, 181, 245);
 }
 
 .page-nav li {
-    display: inline-block;
-    margin: 5px 30px 0 0;
-    width: 250px;
-    border: 3px solid #32a852;
-    padding: 10px;
-    border: 2px solid #000000;
+	display: inline-block;
+	margin: 5px 30px 0 0;
+	width: 250px;
+	border: 3px solid #32a852;
+	padding: 10px;
+	border: 2px solid #000000;
 }
 
 .caption{
-    text-align: center;
+	text-align: center;
 }
 
 .nav{
-    margin-top:7%;
-    min-height: 20px;
-    width: 80%;
-    background-color:yellow;
-    text-align: center;
+	margin-top:7%;
+	min-height: 20px;
+	width: 80%;
+	background-color:yellow;
+	text-align: center;
 }
 
 .link{
-    margin: 0 auto;
-    flex-direction: column;
-    text-align: center;
+	margin: 0 auto;
+	flex-direction: column;
+	text-align: center;
 }
 
 .li{
-    margin:10px auto;
-    text-align: center;
+	margin:10px auto;
+	text-align: center;
 }
 
 .ul{
-    margin: 0 auto;
-    display:inline-flex; 
-    list-style-type: none;
-    text-align: center;
+	margin: 0 auto;
+	display:inline-flex; 
+	list-style-type: none;
+	text-align: center;
 }
 
 .a{
-   display: block;
-   color: #000000;  
+	display: block;
+	color: #000000;  
 }
 
 .header{
-    background-color: rgb(70, 164, 157);
-    border-bottom: 5px solid #000000;
-    text-align: center;
+	background-color: rgb(70, 164, 157);
+	border-bottom: 5px solid #000000;
+	text-align: center;
  }
  
 .img {
-    border: 5px solid #000000;
+	border: 5px solid #000000;
 }
 
 .header_cont {
-    padding: 15px 10px 0 10px;
-    clear: both;
+	padding: 15px 10px 0 10px;
+	clear: both;
 }
 
 .header_cont div {
-    display: inline-block;
-    padding: 25px 0 0 10px;
+	display: inline-block;
+	padding: 25px 0 0 10px;
 }
 
 .link{
-    margin: 0 auto;
-    flex-direction: column;
+	margin: 0 auto;
+	flex-direction: column;
 }
 
 .container{
-     width: 100%;
+	width: 100%;
 }
 
 .form{
-display: block;
-max-width:200px;
-
-    
-     
-    
-    margin: 0 auto;
-    margin-top:20px;
-    padding:10px;
-    background-color: rgb(245, 56, 157);
-    text-align: center;
+	display: block;
+	max-width:200px;
+	margin: 0 auto;
+	margin-top:20px;
+	padding:10px;
+	background-color: rgb(245, 56, 157);
+	text-align: center;
 }
 
 .table{
-     display: block;
-     margin: 15px 15px 15px 15px;
-     display: inline-block;
-     border-collapse: rgb(92, 244, 255);
-     border: medium;
-	 border-style: solid;
+	display: block;
+	margin: 15px 15px 15px 15px;
+	display: inline-block;
+	border-collapse: rgb(92, 244, 255);
+	border: medium;
+	border-style: solid;
       
  }
-border: 2px solid black;
-   th, td{
-     border: 1px solid black;
-       text-align: center;
+
+th, td{
+	border: 1px solid black;
+	text-align: center;
  } 
 
 tr:nth-child(even){
-     background-color: rgb(92, 244, 255);
+	background-color: rgb(92, 244, 255);
 }
 
 .footer{
-    display: block;
-    background-color: rgb(162, 110, 229);
-    text-align: center;
+	display: block;
+	background-color: rgb(162, 110, 229);
+	text-align: center;
 } 
 	
