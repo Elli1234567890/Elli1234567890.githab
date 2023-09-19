@@ -133,9 +133,11 @@ body{
 
 .form{
 display: block;
-    background-color:rgb(50, 168, 82);
-    padding-bottom: 73px;
-    padding-left: 27px;
+    
+    margin: 0 auto;
+    margin-top:20px;
+    padding:10px;
+    background-color:yellow;
     text-align: center;
 }
 
