@@ -138,9 +138,7 @@ max-width:200px;
 
     
      
-    
-    margin: 0 auto;
-    margin-top:20px;
+    margin: 15px 15px 15px 15px;
     padding:10px;
     background-color: rgb(245, 56, 157);
     text-align: center;
@@ -152,7 +150,7 @@ max-width:200px;
      display: inline-block;
      border-collapse: rgb(92, 244, 255);
      border: medium;
-	 border-style: solid;
+     border-style: solid;
       
  }
 border: 2px solid black;
@@ -167,6 +165,9 @@ tr:nth-child(even){
 
 .footer{
     display: block;
+    max-width:400px;
+
+    margin: 15px 15px 15px 15px;
     background-color: rgb(162, 110, 229);
     text-align: center;
 } 
