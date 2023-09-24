@@ -9,7 +9,7 @@
 	flex-direction: now;
 }
 
-#main-aside-wrapper head, #main-aside-wrapper aside{
+#main-aside-wrapper header, #main-aside-wrapper aside, #main-aside-wrapper main {
 	background-color: green;
 	margin: 10 px;
 	ppadding: 10px;
@@ -20,7 +20,12 @@
 	order: 1;
 }
 
-#main-aside-wrapper head{
+#main-aside-wrapper main{
+	flex: 3;
+	order: 2;
+}
+
+#main-aside-wrapper header{
 	flex: 3;
 	order: 2;
 }
