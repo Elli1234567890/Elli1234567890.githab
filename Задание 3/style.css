@@ -10,6 +10,14 @@ div{
 }
 
 
+
+
+body{
+  	margin: 0;
+	color:black;
+	background-color:rgb(174, 181, 245);
+}
+
 min-height: 100vh;
 
 #main{
@@ -18,14 +26,6 @@ min-height: 100vh;
 	border: 7px;
 	background-color:rgb(174, 181, 245);
 }
-
-body{
-  	margin: 0;
-	color:black;
-	background-color:rgb(174, 181, 245);
-}
-
-
 	
 .nav{
 	margin: 0;
@@ -37,8 +37,12 @@ body{
 	border: 7px;
 }
 
+margin-top:7%;
+
 nav, div{
-	margin-top:7%;
+	margin: auto;
+	border: 7px;
+	background-color:yellow;
 	min-height: 20px;
 	width: 80%;
 	text-align: center;
@@ -82,14 +86,6 @@ nav, div{
 	line-height: 50px;
 	font-size: 20px;
 }
-	
-.nav{
-	margin: auto;
-	flex-direction: column;
-	
-}
-
-
 
 .tbody{
 	color:black;
@@ -139,6 +135,10 @@ nav, div{
 	min-height: 20px;
 	padding: 25px 0;
 	color: #000000;  
+}
+
+a:hover{
+  text-decoration: underline;
 }
 
 .header{
@@ -202,38 +202,71 @@ tr:nth-child(even){
 } 
 	
 
-	ppadding: 10px;
+	pading: 10px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1000px) {
+
+header {
+  width: 100%;
 }
-
-
-
-
-
-
-#main{
-	display: flex;
-	flex-direction: column;
-	flex: 1;
-	border: 7px;
+    .main {
+      display: flex;
+    }
+    .link{
+      min-width: 960px;
+    }
+    nav {
+      flex-direction: row;
+      height: 100px;
+      width: 960px;
+      margin: 0 auto;
+    }
+    nav div {
+      height: 60px;
+      width: 25%;
+      margin: 15px 0;
+    }
+head {
+      flex-direction: row;
+      height: 100px;
+      width: 960px;
+      margin: 0 auto;
+    }
+    div {
+      margin: 0 auto;
+    }
+    header {
+      
+      order: 1;
+    }
+    nav {
+      order: 2;
+    }
+    .link{
+      order:3;
+  }
+  .table{
+      order:4;
+  }
+  .form{
+      order: 5;
+  }
+  
+    footer {
+      order: 6;
+    }
 }
-
-#main aside{
-	order: -1;
-}
-
-header, footer, nav, aside, a{
-	padding: 1em;
-}
-
-@media screen and(max-width: 576px;{
-	main{
-		flex-direction: row;
-	}
-}
-
-#main-aside-wrapper aside, #main-aside-wrapper a {
-	flex: 0 0 20vw;
-	background-color: green;
-	margin: 10 px;
-}
-
