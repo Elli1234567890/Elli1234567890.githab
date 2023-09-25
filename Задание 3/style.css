@@ -1,13 +1,20 @@
 *{ 
-	color:black;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
 	box-sizing: border-box;
 }
 
-body{
+div{
+	margint: auto;
+}
 
-  	display: flex;
+
+display: flex;
   	min-height: 100vh;
   	flex-direction: column;
+
+body{
   	margin: 0;
 	color:black;
 	background-color:rgb(174, 181, 245);
@@ -16,11 +23,10 @@ body{
 
 #main-aside-wrapper{
 	display: flex;
+	flex-direction: column;
 	flex: 1;
-	flex-direction: now;
+	border: 7px;
 }
-
-
 
 #main-aside-wrapper aside{
 	order: -1;
