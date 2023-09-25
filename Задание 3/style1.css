@@ -53,6 +53,17 @@ article, div{
 	background-color: rgb(228, 157, 235);
 }
 
+.nav{
+	width: 100%;
+	height: 150px;
+	background-color: rgb(228, 157, 235);
+	
+	margin: 0 auto;
+	display:inline-flex; 
+	list-style-type: none;
+	text-align: center;
+}
+
 #logotype{
 	height: 125px;
 	width: 175px;
@@ -79,6 +90,11 @@ article, div{
 	padding-right: 5%;
 	line-height: 50px;
 	font-size: 20px;
+
+	margin: 0 auto;
+	display:inline-flex; 
+	list-style-type: none;
+	text-align: center;
 }
 
 #reference1, #reference2 {
@@ -90,6 +106,11 @@ article, div{
 	padding-right: 50px;
 	line-height: 50px;
 	font-size: 20px;
+
+	margin: 0 auto;
+	display:inline-flex; 
+	list-style-type: none;
+	text-align: center;
 }
 
 .tbody{
@@ -238,7 +259,7 @@ tr:nth-child(even){
 		width: 100%;
 		height: 150px;
 		background-color: rgb(228, 157, 235);
-	
+
 		float: right;
 		padding-right: 5%;
 		line-height: 50px;
