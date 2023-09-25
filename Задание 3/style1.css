@@ -5,17 +5,18 @@
 	box-sizing: border-box;
 }
 
-div{
-	margint: auto;
-}
-
 body{
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
   	margin: 0;
 	color:black;
 	background-color:rgb(174, 181, 245);
 }
 
-min-height: 100vh;
+div{
+	margin: auto;
+}
 
 #main{
 	display: flex;
@@ -33,8 +34,6 @@ min-height: 100vh;
 	height: 200px;
 	border: 7px;
 }
-
-margin-top:7%;
 
 article, div{
 	margin: auto;
@@ -58,7 +57,7 @@ article, div{
 	height: 150px;
 	background-color: rgb(228, 157, 235);
 	
-	margin: 0 auto;
+	margin: 0;
 	display:inline-flex; 
 	list-style-type: none;
 	text-align: center;
@@ -169,7 +168,7 @@ a:hover{
 
 .header{
 	background-color: rgb(70, 164, 157);
-	border-bottom: 5px solid #000000;
+	border-bottom: 7px;
 	text-align: center;
  }
  
@@ -288,25 +287,25 @@ tr:nth-child(even){
 		margin: 0 auto;
 	}
 	div {
-		margin: 0 auto;
+		margin: 0;
 	}
 	header {
-		order: 1;
+		order: 3;
 	}
 	nav {
-		order: 2;
+		order: 3;
 	}
 	.link{
 		order:3;
 	}
 	.table{
-		order:4;
+		order:3;
 	}
 	.form{
-		order: 5;
+		order: 3;
 	}
   
 	footer {
-		order: 6;
+		order: 3;
 	}
 }
