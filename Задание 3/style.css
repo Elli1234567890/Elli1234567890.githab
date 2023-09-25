@@ -20,12 +20,7 @@ body{
 	flex-direction: now;
 }
 
-#main-aside-wrapper aside, #main-aside-wrapper a {
-	flex: 0 0 20vw;
-	background-color: green;
-	margin: 10 px;
-	ppadding: 10px;
-}
+
 
 #main-aside-wrapper aside{
 	order: -1;
@@ -35,11 +30,6 @@ header, footer, nav, aside, a{
 	padding: 1em;
 }
 
-@media screen and(max-width: 575px;{
-	main{
-		display: block;
-	}
-}
 
 #header{
 	
@@ -232,3 +222,15 @@ tr:nth-child(even){
 	text-align: center;
 } 
 	
+@media screen and(max-width: 576px;{
+	main{
+		flex-direction: row;
+	}
+}
+
+#main-aside-wrapper aside, #main-aside-wrapper a {
+	flex: 0 0 20vw;
+	background-color: green;
+	margin: 10 px;
+	ppadding: 10px;
+}
