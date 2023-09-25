@@ -210,71 +210,64 @@ tr:nth-child(even){
 } 
 	
 
-	pading: 10px;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 1000px) {
+	body{
+		display: flex;
+		flex-direction: column;
+		min-height: 1000vh;
+	}
 
-header {
-  width: 100%;
-}
-    .main {
-      display: flex;
-    }
-    .link{
-      min-width: 960px;
-    }
-    nav {
-      flex-direction: row;
-      height: 100px;
-      width: 960px;
-      margin: 0 auto;
-    }
-    nav div {
-      height: 60px;
-      width: 25%;
-      margin: 15px 0;
-    }
-head {
-      flex-direction: row;
-      height: 100px;
-      width: 960px;
-      margin: 0 auto;
-    }
-    div {
-      margin: 0 auto;
-    }
-    header {
-      
-      order: 1;
-    }
-    nav {
-      order: 2;
-    }
-    .link{
-      order:3;
-  }
-  .table{
-      order:4;
-  }
-  .form{
-      order: 5;
-  }
+	header, main, footer{
+		flex: 1;
+	}
+	
+	header {
+		width: 100%;
+	}
+	.main {
+		display: flex;
+		justify-content:space-between;
+	}
+	.link{
+		min-width: 960px;
+	}
+	nav {
+		flex-direction: row;
+		height: 100px;
+		width: 960px;
+		margin: 0 auto;
+	}
+	nav div {
+		height: 60px;
+		width: 25%;
+		margin: 15px 0;
+	}
+	head {
+		flex-direction: row;
+		height: 100px;
+		width: 960px;
+		margin: 0 auto;
+	}
+	div {
+		margin: 0 auto;
+	}
+	header {
+		order: 1;
+	}
+	nav {
+		order: 2;
+	}
+	.link{
+		order:3;
+	}
+	.table{
+		order:4;
+	}
+	.form{
+		order: 5;
+	}
   
-    footer {
-      order: 6;
-    }
+	footer {
+		order: 6;
+	}
 }
