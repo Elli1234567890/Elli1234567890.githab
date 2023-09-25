@@ -248,11 +248,11 @@ tr:nth-child(even){
 	.link{
 		min-width: 960px;
 	}
-	nav {
+	.nav {
 		flex-direction: row;
 		height: 100px;
 		width: 960px;
-		margin: 0 auto;
+		margin: 0;
 	}
 	#reference {
 		width: 100%;
@@ -280,19 +280,19 @@ tr:nth-child(even){
 		width: 25%;
 		margin: 15px 0;
 	}
-	head {
+	#head {
 		flex-direction: row;
 		height: 100px;
 		width: 960px;
 		margin: 0 auto;
 	}
-	div {
+	.div {
 		margin: 0;
 	}
-	header {
+	.header {
 		order: 3;
 	}
-	nav {
+	.nav {
 		order: 3;
 	}
 	.link{
