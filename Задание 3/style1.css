@@ -290,22 +290,22 @@ tr:nth-child(even){
 		margin: 0;
 	}
 	.header {
-		order: 3;
+		order: 0;
 	}
 	.nav {
-		order: 3;
+		order: 1;
 	}
 	.link{
-		order:3;
+		order:2;
 	}
 	.table{
 		order:3;
 	}
 	.form{
-		order: 3;
+		order: 4;
 	}
   
 	footer {
-		order: 3;
+		order: 5;
 	}
 }
