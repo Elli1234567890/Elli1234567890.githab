@@ -287,25 +287,25 @@ tr:nth-child(even){
 		margin: 0 auto;
 	}
 	.div {
-		margin: 0;
+		margin: 1;
 	}
 	.header {
-		order: 0;
+		order: 2;
 	}
 	.nav {
-		order: 1;
+		order: 3;
 	}
 	.link{
-		order:2;
+		order:4;
 	}
 	.table{
-		order:3;
+		order:5;
 	}
 	.form{
-		order: 4;
+		order: 6;
 	}
   
 	footer {
-		order: 5;
+		order: 7;
 	}
 }
