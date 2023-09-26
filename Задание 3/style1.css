@@ -227,11 +227,11 @@ tr:nth-child(even){
 } 
 	
 
-@media screen and (max-width: 960px) {
+@media screen and (min-width: 960px) {
 	body{
 		display: flex;
 		flex-direction: column;
-		max-height: 960vh;
+		min-height: 960vh;
 	}
 
 	header, main, footer{
