@@ -7,7 +7,6 @@
 
 body{
 	display: flex;
-	min-height: 100vh;
 	flex-direction: column;
   	margin: 0;
 	color:black;
@@ -39,7 +38,6 @@ article, div{
 	margin: auto;
 	border: 7px;
 	background-color:yellow;
-	min-height: 20px;
 	width: 80%;
 	text-align: center;
 }
@@ -59,7 +57,6 @@ article, div{
 	
 	margin: 0;
 	display:inline-flex; 
-	list-style-type: none;
 	text-align: center;
 }
 
@@ -193,7 +190,6 @@ a:hover{
 
 .form{
 	display: block;
-	max-width:200px;
 	margin: 0 auto;
 	margin-top:20px;
 	padding:10px;
@@ -206,8 +202,6 @@ a:hover{
 	margin: 15px 15px 15px 15px;
 	display: inline-block;
 	border-collapse: rgb(92, 244, 255);
-	border: medium;
-	border-style: solid;
       
  }
 
