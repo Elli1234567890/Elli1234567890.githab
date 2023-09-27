@@ -225,7 +225,7 @@ tr:nth-child(even){
 	body{
 		display: flex;
 		flex-direction: column;
-		min-height: 960vh;
+		min-height: 100vh;
 	}
 
 	header, main, footer{
