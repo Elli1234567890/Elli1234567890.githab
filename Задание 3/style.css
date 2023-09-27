@@ -17,7 +17,7 @@ div{
 	margin: auto;
 }
 
-#main{
+.main{
 	display: flex;
   	flex-direction: column;
 	border: 7px;
