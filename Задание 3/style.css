@@ -237,7 +237,7 @@ tr:nth-child(even){
 	}
 	.main {
 		display: flex;
-		justify-content:space-between;
+		flex-direction: column;
 	}
 	.link{
 		min-width: 960px;
