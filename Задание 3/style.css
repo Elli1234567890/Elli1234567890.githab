@@ -6,8 +6,6 @@
 }
 
 body{
-	display: flex;
-	flex-direction: column;
   	margin: 0;
 	color:black;
 	background-color:rgb(174, 181, 245);
@@ -43,7 +41,7 @@ article, div{
 }
 
 
-#header{
+.header{
 	
 	width: 100%;
 	height: 150px;
@@ -188,7 +186,16 @@ tr:nth-child(even){
 	background-color: rgb(162, 110, 229);
 	text-align: center;
 } 
-	
+
+.main1{
+	order: 1;
+}
+.main2{
+	order: 2;
+}
+.main3{
+	order: 3;
+}
 
 @media screen and (min-width: 960px) {
 	body{
@@ -201,8 +208,10 @@ tr:nth-child(even){
 		flex: 1;
 	}
 	
-	header {
-		width: 100%;
+	.header {
+		flex-wrap: wrap;
+		flex-direction: row;
+		allign-items: center;
 	}
 	.main {
 		display: flex;
