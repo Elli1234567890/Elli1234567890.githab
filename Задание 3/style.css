@@ -35,13 +35,13 @@ article, div{
 	margin: auto;
 	border: 7px;
 	background-color:yellow;
+	min-height: 20px;
 	width: 80%;
 	text-align: center;
 }
 
-
 #header{
-	width: 90%;
+	width: 100%;
 	height: 150px;
 	background-color: rgb(228, 157, 235);
 }
@@ -156,8 +156,8 @@ a:hover{
 .form{
 	display: block;
 	margin: 0 auto;
-	margin-top:20px;
-	padding:10px;
+	margin-top: 20px;
+	padding: 10px;
 	background-color: rgb(245, 56, 157);
 	text-align: center;
 }
