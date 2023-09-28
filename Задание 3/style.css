@@ -22,10 +22,14 @@ div{
 	background-color:rgb(174, 181, 245);
 
 
-    margin-bottom: 2vh;
 
-    gap: 3vh;
+
+
+	width: 70vw;
+   
+    justify-content: space-between;
     align-items: center;
+    margin-bottom: 1vh;
 	
 }
 .article{
