@@ -239,6 +239,20 @@ tr:nth-child(even){
 		display: flex;
 		flex-direction: column;
 	}
+
+	
+	.main1 {
+        	order: 2;
+    	}
+    	.main2 {
+       	 	order: 1;
+   	 }
+    	.main3 {
+       		order: 3;
+   	 }
+
+
+	
 	.link{
 		min-width: 960px;
 	}
@@ -300,6 +314,6 @@ tr:nth-child(even){
 	}
   
 	footer {
-		order: 7;
+		min-height: 60px;
 	}
 }
