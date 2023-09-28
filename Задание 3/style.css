@@ -35,13 +35,13 @@ article, div{
 	margin: auto;
 	border: 7px;
 	background-color:yellow;
-	width: 100%;
+	width: 80%;
 	text-align: center;
 }
 
 
 #header{
-	width: 100%;
+	width: 90%;
 	height: 150px;
 	background-color: rgb(228, 157, 235);
 }
@@ -149,7 +149,7 @@ a:hover{
 }
 
 .link{
-	margin: 0;
+	margin: 0 auto;
 	flex-direction: column;
 }
 
