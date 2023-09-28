@@ -239,27 +239,7 @@ tr:nth-child(even){
 		width: 960px;
 		margin: 0;
 	}
-	#reference {
-		width: 100%;
-		height: 150px;
-		background-color: rgb(228, 157, 235);
-
-		float: right;
-		padding-right: 5%;
-		line-height: 50px;
-		font-size: 20px;
-	}
-
-	#reference1, #reference2 {
-		width: 100%;
-		height: 150px;
-		background-color: rgb(228, 157, 235);
 	
-		float: right;
-		padding-right: 50px;
-		line-height: 50px;
-		font-size: 20px;
-	}
 	nav div {
 		height: 60px;
 		width: 25%;
