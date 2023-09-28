@@ -20,6 +20,13 @@ div{
   	flex-direction: column;
 	border: 7px;
 	background-color:rgb(174, 181, 245);
+
+
+    margin-bottom: 2vh;
+
+    gap: 3vh;
+    align-items: center;
+	
 }
 .article{
 	margin: 0;
@@ -256,10 +263,10 @@ tr:nth-child(even){
 
 	
 	.main1 {
-        	order: 2;
+        	order: 1;
     	}
     	.main2 {
-       	 	order: 1;
+       	 	order: 2;
    	 }
     	.main3 {
        		order: 3;
