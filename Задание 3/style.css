@@ -52,7 +52,7 @@ article, div{
 	height: 150px;
 	 display: flex;
     flex-direction: column;
-    min-height: 80px;
+    min-height: 100px;
 	background-color: rgb(228, 157, 235);
     
     align-items: center;
