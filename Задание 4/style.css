@@ -115,15 +115,12 @@ a:hover{
 }
 rgb(245, 56, 157)
 .table{
-	display: block;
-	margin: 15px 15px 15px 15px;
 	display: inline-block;
 	border-collapse: rgb(92, 244, 255);
       
  }
 
 th, td{
-	border: 1px solid black;
 	text-align: center;
  } 
 
@@ -141,87 +138,28 @@ tr:nth-child(even){
 	order: 1;
 }
 .main2{
-	order: 3;
+	order: 2;
 }
 .main3{
-	order: 2;
+	order: 1;
 }
 
 @media screen and (min-width: 960px) {
-	body{
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
-	}
-
-	header, main, footer{
-		flex: 1;
-	}
-	
-	.header {
-		flex-wrap: wrap;
-		flex-direction: row;
-		allign-items: center;
-	}
-	.main {
-		display: flex;
-		flex-direction: column;
-	}
-
 	
 	.main1 {
         	order: 1;
     	}
     	.main2 {
-       	 	order: 2;
+       	 	order: 3;
    	 }
     	.main3 {
-       		order: 3;
+       		order: 2;
    	 }
 
-
-	
-	.link{
-		min-width: 960px;
-	}
-	.nav {
-		flex-direction: row;
-		height: 100px;
-		width: 960px;
-		margin: 0;
-	}
-	
-	nav div {
-		height: 60px;
-		width: 25%;
-		margin: 15px 0;
-	}
 	#head {
 		flex-direction: row;
 		height: 100px;
 		width: 960px;
 		margin: 0 auto;
-	}
-	.div {
-		margin: 1;
-	}
-	.header {
-		order: 2;
-	}
-	.nav {
-		order: 3;
-	}
-	.link{
-		order:4;
-	}
-	.table{
-		order:5;
-	}
-	.form{
-		order: 6;
-	}
-  
-	footer {
-		min-height: 60px;
 	}
 }
