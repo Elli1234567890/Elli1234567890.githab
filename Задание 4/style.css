@@ -61,17 +61,6 @@ article, div{
 	text-align: center;
 }
 
-.page-article{
-	max-width: 960px;
-	border: 3px solid #000000;
-	margin-left: 90%;
-	background-color:rgb(174, 181, 245);
-}
-
-.page-article li {
-	display: inline-block;
-}
-
 
 .a{
 	display: block; 
@@ -83,23 +72,12 @@ a:hover{
 
 .header{
 	background-color: rgb(70, 164, 157);
-	border-bottom: 7px;
-	text-align: center;
  }
  
 .img {
 	border: 5px solid #000000;
 }
 
-.header_cont {
-	padding: 15px 10px 0 10px;
-	clear: both;
-}
-
-.header_cont div {
-	display: inline-block;
-	padding: 25px 0 0 10px;
-}
 
 .link{
 	margin: 0 auto;
