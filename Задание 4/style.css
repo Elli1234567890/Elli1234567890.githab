@@ -12,14 +12,6 @@ div{
 	margin: auto;
 }
 
-.main{
-	
-	display: flex;
-	flex-direction: column;
-	background-color:rgb(174, 181, 245);
-	
-	
-}
 .article{
 	background-color:rgb(174, 181, 245);
 }
@@ -32,24 +24,6 @@ article, div{
 #header{
 	background-color: rgb(245, 56, 157);
 }
-
-#logotype{
-	height: 125px;
-	width: 175px;
-	float: left;
-	margin-left: 5%;
-	margin-top:12.5px;
-}
-
-#name{
-	display: inline;
-	float: left;
-	padding-left: 40px;
-	line-height: 165px;
-	font-weight: 700;
-	font-size: 1.25em
-}
-
 
 .tbody{
 	color:black;
