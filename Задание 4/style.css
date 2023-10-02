@@ -129,6 +129,6 @@ tr:nth-child(even){
 
 .footer{
 	display: block;
-	background-color: rgb(162, 110, 229);
+	background-color: yellow; 
 	text-align: center;
-}
+}rgb(162, 110, 229)
