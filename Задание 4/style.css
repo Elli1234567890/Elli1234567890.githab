@@ -31,8 +31,7 @@ article, div{
 }
 
 #header{
-
-	background-color: rgb(228, 157, 235);
+	background-color: rgb(245, 56, 157);
 }
 
 .nav{
@@ -111,10 +110,10 @@ a:hover{
 .form{
 	display: block;
 	padding: 10px;
-	background-color: rgb(174, 181, 245);
+	background-color: rgb(245, 56, 157);
 }
-rgb(245, 56, 157)
 .table{
+	display: block;
 	display: inline-block;
 	border-collapse: rgb(92, 244, 255);
       
