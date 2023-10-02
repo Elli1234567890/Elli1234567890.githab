@@ -119,7 +119,7 @@ a:hover{
  }
 
 th, td{
-	border: solid black;
+	border: 1 px solid black;
 	text-align: center;
  } 
 
