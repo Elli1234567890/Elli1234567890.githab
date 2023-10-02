@@ -4,8 +4,7 @@
 }
 
 body{
-  margin: 0;
-  color:black;
+  	color:black;
 	background-color:rgb(174, 181, 245);
 }
 
@@ -120,6 +119,7 @@ a:hover{
  }
 
 th, td{
+	border: 1px solid black;
 	text-align: center;
  } 
 
@@ -131,34 +131,4 @@ tr:nth-child(even){
 	display: block;
 	background-color: rgb(162, 110, 229);
 	text-align: center;
-} 
-
-.main1{
-	order: 1;
-}
-.main2{
-	order: 2;
-}
-.main3{
-	order: 1;
-}
-
-@media screen and (min-width: 960px) {
-	
-	.main1 {
-        	order: 1;
-    	}
-    	.main2 {
-       	 	order: 3;
-   	 }
-    	.main3 {
-       		order: 2;
-   	 }
-
-	#head {
-		flex-direction: row;
-		height: 100px;
-		width: 960px;
-		margin: 0 auto;
-	}
 }
