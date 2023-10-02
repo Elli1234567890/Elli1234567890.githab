@@ -22,11 +22,11 @@ div{
 	
 }
 .article{
-	background-color:yellow;
+	background-color:rgb(174, 181, 245);
 }
 
 article, div{
-	background-color:yellow;
+	background-color:rgb(174, 181, 245);
 
 }
 
@@ -111,7 +111,7 @@ a:hover{
 .form{
 	display: block;
 	padding: 10px;
-	background-color: yellow;
+	background-color: rgb(174, 181, 245);
 }
 rgb(245, 56, 157)
 .table{
