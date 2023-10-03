@@ -203,6 +203,7 @@ tr:nth-child(even){
 	order: 3;
 }
 .footer{
+	order: 4;
 	display: block;
 	background-color: rgb(162, 110, 229);
 	text-align: center;
