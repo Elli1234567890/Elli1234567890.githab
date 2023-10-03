@@ -23,7 +23,7 @@ div{
 	background-color:rgb(174, 181, 245);
 	width: 70vw;
     	justify-content: space-between;
-   	 align-items: center;
+   	align-items: center;
     	margin-bottom: 1vh;
 	
 }
@@ -137,12 +137,11 @@ article, div{
 }
 
 a:hover{
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 .header{
 	background-color: rgb(70, 164, 157);
-	
 	text-align: center;
  }
  
@@ -179,7 +178,6 @@ a:hover{
 	margin: 15px 15px 15px 15px;
 	display: inline-block;
 	border-collapse: rgb(92, 244, 255);
-      
  }
 
 th, td{
@@ -190,8 +188,6 @@ th, td{
 tr:nth-child(even){
 	background-color: rgb(92, 244, 255);
 }
-
-
 
 .main1{
 	order: 1;
@@ -253,7 +249,6 @@ tr:nth-child(even){
        		order: 2;
    	 }
 
-
 	
 	.link{
 		min-width: 960px;
@@ -279,8 +274,4 @@ tr:nth-child(even){
 	.div {
 		margin: 1;
 	}
-
-
-	
-	
 }
