@@ -15,6 +15,18 @@ div{
 	margin: auto;
 }
 
+.main{
+	
+	display: flex;
+	flex-direction: column;
+	border: 7px;
+	background-color:rgb(174, 181, 245);
+	width: 70vw;
+    	justify-content: space-between;
+   	 align-items: center;
+    	margin-bottom: 1vh;
+	
+}
 .article{
 	margin: 0;
 	display: flex;
@@ -184,47 +196,79 @@ tr:nth-child(even){
 	background-color: rgb(162, 110, 229);
 	text-align: center;
 } 
-#navv{
-	 text-decoration: none; 
-  background: #311675; 
-  color: #fff; 
-  width: 100%;
-  font-family: 'Times New Roman', Times, serif; 
-  line-height: 30px; 
-  display: block;
-  font-size:calc(15px + 5 * (100vw / 1280));
-  
-  -moz-transition: all 0.3s 0.01s ease; 
-  -o-transition: all 0.3s 0.01s ease;
-  -webkit-transition: all 0.3s 0.01s ease;
-  text-align: center;
-}
-#main{
-  display: flex;
-  flex-direction: column;
-}
 
-@media screen and (orientation: landscape){
-  #main1{
-    order: 2;
-  }
-  #main2{
-    order: 1;
-  }
- #main3{
-    order:3;
-  }
+.main1{
+	order: 1;
+}
+.main2{
+	order: 2;
+}
+.main3{
+	order: 3;
 }
 
 @media screen and (min-width: 960px) {
-	#main1 {
+	body{
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+	}
+
+	header, main, footer{
+		flex: 1;
+	}
+	
+	.header {
+		flex-wrap: wrap;
+		flex-direction: row;
+		allign-items: center;
+	}
+	.main {
+		display: flex;
+		flex-direction: column;
+	}
+
+	
+	.main1 {
         	order: 1;
     	}
-    	#main2 {
+    	.main2 {
        	 	order: 3;
    	 }
-    	#main3 {
+    	.main3 {
        		order: 2;
    	 }
-}
+
+
 	
+	.link{
+		min-width: 960px;
+	}
+	.nav {
+		flex-direction: row;
+		height: 100px;
+		width: 960px;
+		margin: 0;
+	}
+	
+	nav div {
+		height: 60px;
+		width: 25%;
+		margin: 15px 0;
+	}
+	#head {
+		flex-direction: row;
+		height: 100px;
+		width: 960px;
+		margin: 0 auto;
+	}
+	.div {
+		margin: 1;
+	}
+
+
+	
+	footer {
+		min-height: 60px;
+	}
+}
