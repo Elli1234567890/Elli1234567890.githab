@@ -191,11 +191,7 @@ tr:nth-child(even){
 	background-color: rgb(92, 244, 255);
 }
 
-.footer{
-	display: block;
-	background-color: rgb(162, 110, 229);
-	text-align: center;
-} 
+
 
 .main1{
 	order: 1;
@@ -206,7 +202,11 @@ tr:nth-child(even){
 .main3{
 	order: 3;
 }
-
+.footer{
+	display: block;
+	background-color: rgb(162, 110, 229);
+	text-align: center;
+} 
 @media screen and (min-width: 960px) {
 	body{
 		display: flex;
