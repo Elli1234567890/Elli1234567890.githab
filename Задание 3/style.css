@@ -142,7 +142,7 @@ a:hover{
 
 .header{
 	background-color: rgb(70, 164, 157);
-	border-bottom: 7px;
+	
 	text-align: center;
  }
  
@@ -206,7 +206,20 @@ tr:nth-child(even){
 	display: block;
 	background-color: rgb(162, 110, 229);
 	text-align: center;
-} 
+}
+
+@media screen and (orientation: landscape){
+	.main1 {
+        	order: 1;
+    	}
+    	.main2 {
+       	 	order: 2;
+   	 }
+    	.main3 {
+       		order: 3;
+   	 }
+}
+
 @media screen and (min-width: 960px) {
 	body{
 		display: flex;
