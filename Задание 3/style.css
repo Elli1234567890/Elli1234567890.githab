@@ -15,18 +15,6 @@ div{
 	margin: auto;
 }
 
-.main{
-	
-	display: flex;
-	flex-direction: column;
-	border: 7px;
-	background-color:rgb(174, 181, 245);
-	width: 70vw;
-    	justify-content: space-between;
-   	 align-items: center;
-    	margin-bottom: 1vh;
-	
-}
 .article{
 	margin: 0;
 	display: flex;
@@ -197,38 +185,24 @@ tr:nth-child(even){
 	text-align: center;
 } 
 
-.main1{
-	order: 1;
+#main{
+  display: flex;
+  flex-direction: column;
 }
-.main2{
-	order: 2;
-}
-.main3{
-	order: 3;
+
+@media screen and (orientation: landscape){
+  .main1{
+    order: 2;
+  }
+  .main2{
+    order: 1;
+  }
+ .main3{
+    order:3;
+  }
 }
 
 @media screen and (min-width: 960px) {
-	body{
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
-	}
-
-	header, main, footer{
-		flex: 1;
-	}
-	
-	.header {
-		flex-wrap: wrap;
-		flex-direction: row;
-		allign-items: center;
-	}
-	.main {
-		display: flex;
-		flex-direction: column;
-	}
-
-	
 	.main1 {
         	order: 1;
     	}
@@ -238,37 +212,5 @@ tr:nth-child(even){
     	.main3 {
        		order: 2;
    	 }
-
-
-	
-	.link{
-		min-width: 960px;
-	}
-	.nav {
-		flex-direction: row;
-		height: 100px;
-		width: 960px;
-		margin: 0;
-	}
-	
-	nav div {
-		height: 60px;
-		width: 25%;
-		margin: 15px 0;
-	}
-	#head {
-		flex-direction: row;
-		height: 100px;
-		width: 960px;
-		margin: 0 auto;
-	}
-	.div {
-		margin: 1;
-	}
-
-
-	
-	footer {
-		min-height: 60px;
-	}
 }
+	
