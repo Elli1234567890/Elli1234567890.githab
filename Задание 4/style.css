@@ -22,9 +22,13 @@ article, div{
 }
 
 #header{
-	width: 100%;
-	height: 150px;
-	background-color: rgb(228, 157, 235);
+	  background: linear-gradient(to right,  #7ad6f3 0%,#52339a 100%);
+  height: 160px;
+
+
+
+	
+	
 }
 
 .tbody{
