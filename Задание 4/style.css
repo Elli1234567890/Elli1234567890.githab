@@ -72,5 +72,6 @@ tr:nth-child(even){
 }
 
 .footer{
-	background-color: rgb(162, 110, 229); 
+	display: block;
+	text-align: center;
 }
