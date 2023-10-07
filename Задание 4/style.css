@@ -1,7 +1,6 @@
 *{ 
 	font-size: 20px;
 	box-sizing: border-box;
-	background-color:rgb(174, 181, 245);
 }
 
 body{
@@ -15,13 +14,16 @@ body{
 	text-align: center;
 }
 
+div{
+	background-color:rgb(174, 181, 245);
+}
 
 .a{
 	display: block; 
 }
 
 a:hover{
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
  
