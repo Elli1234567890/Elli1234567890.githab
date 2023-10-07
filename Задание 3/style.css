@@ -53,7 +53,7 @@ article, div{
 	height: 450px;
 	display: flex;
  	flex-direction: column;
-	min-height: 100px;
+	min-height: 200px;
 	background-color: rgb(228, 157, 235);
    	align-items: center;
     	justify-content: space-evenly;
