@@ -5,17 +5,13 @@
 
 body{
   	color:black;
+	background-color:rgb(174, 181, 245);
 	}
 
-div{
-	margin: 0;
+article, div{
+	
+
 }
-
-.article{
-	background-color:rgb(174, 181, 245);
-}
-
-
 
 .tbody{
 	color:black;
