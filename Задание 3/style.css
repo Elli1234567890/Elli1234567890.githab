@@ -11,8 +11,10 @@ body{
 	background-color:rgb(174, 181, 245);
 }
 
+
 div{
-	margin: auto;
+	justify-content: space-between;
+   	align-items: center;
 }
 
 .main{
