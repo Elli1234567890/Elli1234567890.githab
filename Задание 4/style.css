@@ -1,4 +1,4 @@
-*{ 
+v*{ 
 	font-size: 20px;
 	box-sizing: border-box;
 }
@@ -14,7 +14,7 @@ body{
 	text-align: center;
 }
 
-div{
+nev{
 	background-color:rgb(174, 181, 245);
 }
 
@@ -22,9 +22,7 @@ div{
 	display: block; 
 }
 
-a:hover{
-	text-decoration: underline;
-}
+
 
  
 .img {
