@@ -37,14 +37,6 @@ div{
 	border: 7px;
 }
 
-article, div{
-	margin: auto;
-	border: 7px;
-	background-color:rgb(174, 181, 245);
-	min-height: 20px;
-	width: 80%;
-	text-align: center;
-}
 
 #header{
 	width: 100%;
