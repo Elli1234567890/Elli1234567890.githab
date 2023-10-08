@@ -13,6 +13,7 @@
     </head>
     <body>
         <div class="container-fluid">
+            <div class="d-flex flex-nowrap">
             <header class="header">
                 <div class="container-fluid d-flex align-items-center pb-1">
                     <div class="header" style="background-color: rgb(70, 164, 157)">
@@ -29,6 +30,7 @@
                 </div>
             </header>
             <nev style="background-color:rgb(174, 181, 245)">
+            <div class="order-1 p-2">
             <div class="link" id="list">
                 <article>
                     <h2>Список гиперссылок</h2>
@@ -64,9 +66,10 @@
                     <ul><a href="ftp://user:7851@example.com/myfile.zip">Несуществующий файл на сервере FTP</a></ul>
                 </article>
             </div>
+            </div>
         
 
-             
+             <div class="order-3 p-2">
                 <div class="table-responsive">
                 <table class="table table-bordered table-hover" id="table">
                     <div claass="col-md-2">
@@ -102,9 +105,10 @@
                     </tr>
                     </div>
                 </table>
+                </div>
             </div>
              
-           
+           <div class="order-2 p-2">
                 <form action="https://www.example.com" method="POST" class="form" id="form">
                     <h2>Форма</h2>         
                     <label>
@@ -156,7 +160,8 @@
                     <input type="checkbox" checked="checked" name="check-1"><br>
                     <input type="submit" value="Сохранить">
             </form>
- </nev>
+           </div>
+            </nev>
  </div>
         <footer class="footer" style="background-color: rgb(228, 157, 235);" id="footer">
             <div class="footer_inner" style="background-color: rgb(162, 110, 229)">
@@ -164,6 +169,6 @@
             </div>
         </footer>
         
-     
+    </div>
     </body>
 </html>
