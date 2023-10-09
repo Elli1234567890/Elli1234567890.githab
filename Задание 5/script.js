@@ -1,41 +1,36 @@
 <h3>Расчет стоимости продуктов</h3>
-<select id="cvet">
-<option value="serii">Серый</option>
-<option value="geltii">Желтый</option>
-<option value="goluboi">Голубой</option>
+<select id="prodact">
+<option value="candy">Конфеты</option>
+<option value="marmelad">Мармелад</option>
+<option value="cherry">Черешня</option>
+<option value="banana">Бананы</option>
 </select>
-<input type="text" id="shirina" value="" placeholder="укажите ширину помещения">
-<input type="text" id="dlina" value="" placeholder="укажите длину помещения">
+<input type="text" id="shirina" value="" placeholder="укажите вес продуктов">
 <button onclick="raschitat();">Рассчитать стоимость</button>
-<div id="ploschad"></div>
 <div id="stoimost"></div>
 <script type="text/jаvascript">
 function raschitat() {
-cvet  = document.getElementById('cvet').value;
-switch (cvet) {
-   case "serii":
-      cena = 440;
+cvet  = document.getElementById('prodact').value;
+switch (prodact) {
+   case "candy":
+      cena = 20;
       break
-   case "goluboi":
-      cena = 480;
+   case "marmelad":
+      cena = 100;
       break   
-    case "geltii":
-      cena = 380;
-      break   
-   default:
-      cena = 440;
-      break
+    case "cherry":
+      cena = 50;
+      break 
+    case "banana":
+      cena = 70;
+      break 
 }
 shirina  = document.getElementById('shirina').value;
 dlina  = document.getElementById('dlina').value;
-if(shirina == ""){
-alert("Вы не указали ширину");
-} else if(dlina == ""){
-alert("Вы не указали длину");
+if(ves == ""){
+alert("Вы не указали вес продуктов");
 } else {
-ploschad = parseFloat (shirina)* parseFloat (dlina);
-document.getElementById('ploschad').innerHTML = "Площадь равна: "+ ploschad +" кв. м.";
-stoimost = ploschad*cena;
+stoimost = prodact*cena;
 document.getElementById('stoimost').innerHTML = "Стоимость равна: "+ stoimost +" р.";
 }
 }
