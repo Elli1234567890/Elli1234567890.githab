@@ -16,14 +16,9 @@ body{
 .a{
 	display: block; 
 }
- 
-.img {
-	border: 5px solid #000000;
-}
 
 
 .link{
-	margin: 0 auto;
 	flex-direction: column;
 }
 
