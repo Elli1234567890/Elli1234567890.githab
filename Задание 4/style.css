@@ -1,48 +1,8 @@
 *{ 
 	font-size: 20px;
-}
-
-body{
-  	color:black;
-	background-color:rgb(174, 181, 245);
-	}
-
-.tbody{
-	color:black;
-	background-color:rgb(174, 181, 245);
 	text-align: center;
 }
-
-.a{
-	display: block; 
-}
-
-
-.link{
-	flex-direction: column;
-}
-
-.form{
-	display: block;
-	background-color: rgb(245, 56, 157);
-}
-.table{
-	display: block;
-	display: inline-block;
-	border-collapse: rgb(92, 244, 255);
-      
- }
-
-th, td{
-	
-	text-align: center;
- } 
 
 tr:nth-child(even){
 	background-color: rgb(92, 244, 255);
-}
-
-.footer{
-	display: block;
-	text-align: center;
 }
