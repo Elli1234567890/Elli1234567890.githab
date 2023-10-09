@@ -25,8 +25,7 @@ switch (prodact) {
       cena = 70;
       break 
 }
-shirina  = document.getElementById('shirina').value;
-dlina  = document.getElementById('dlina').value;
+ves  = document.getElementById('ves').value;
 if(ves == ""){
 alert("Вы не указали вес продуктов");
 } else {
