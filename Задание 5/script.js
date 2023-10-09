@@ -7,7 +7,7 @@
 <option value="banana">Бананы</option>
    </label>
 </select>
-<input type="text" id="shirina" value="" placeholder="укажите вес продуктов">
+<input type="text" id="ves" value="" placeholder="укажите вес продуктов">
 <button onclick="raschitat();">Рассчитать стоимость</button>
 <div id="stoimost"></div>
 <script type="text/jаvascript">
