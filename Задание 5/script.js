@@ -1,11 +1,9 @@
 <h3>Расчет стоимости продуктов</h3>
 <select id="prodact">
-   <label>
 <option value="candy">Конфеты</option>
 <option value="marmelad">Мармелад</option>
 <option value="cherry">Черешня</option>
 <option value="banana">Бананы</option>
-   </label>
 </select>
 <input type="text" id="ves" value="" placeholder="укажите вес продуктов">
 <button onclick="raschitat();">Рассчитать стоимость</button>
