@@ -29,7 +29,7 @@ ves  = document.getElementById('ves').value;
 if(ves == ""){
 alert("Вы не указали вес продуктов");
 } else {
-stoimost = prodact*cena;
+stoimost = ves*cena;
 document.getElementById('stoimost').innerHTML = "Стоимость равна: "+ stoimost +" р.";
 }
 }
