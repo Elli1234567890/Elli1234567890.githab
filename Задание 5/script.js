@@ -1,26 +1,13 @@
-<h3>Расчет стоимости продуктов</h3>
-function raschitat() {
-   prodact  = document.getElementById('prodact').value;
-   switch (prodact) {
-      case "candy":
-         cena = 20;
-         break
-      case "marmelad":
-         cena = 100;
-         break  
-       case "cherry":
-         cena = 50;
-         break 
-       case "banana":
-         cena = 70;
-         break
-   }
-   ves  = document.getElementById('ves').value;
-   if(ves == ""){
-      alert("Вы не указали вес продуктов");
-   }
-   else {
-      stoimost = ves*cena/100;
-      document.getElementById('stoimost').innerHTML = "Стоимость равна: "+ stoimost +" р.";
-   }
+button.onclick = function() {
+  let v = document.getElementsByName("ves");
+  let c = document.getElementsByName("cena");
+  let stoim = document.getElementById("stoimost");
+}
+   if (v[0].value < 0 || c[0].value < 0 || !Number(v[0].value) || !Number(c[0].value)) {
+    alert("Так сложно ввессти положительные числа?");
+    r.innerHtML = none;
+    return false;
+  }
+  r.innerHTML = v[0].value * c[0].value / 100;
+  return false;
 }
