@@ -8,6 +8,6 @@ button.onclick = function() {
     r.innerHtML = none;
     return false;
   }
-  r.innerHTML = v[0].value * c[0].value / 100;
+  stoim.innerHTML = v[0].value * c[0].value / 100;
   return false;
 }
