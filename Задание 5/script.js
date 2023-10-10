@@ -1,6 +1,6 @@
 <h3>Расчет стоимости продуктов</h3>
 function raschitat() {
-   cvet  = document.getElementById('prodact').value;
+   prodact  = document.getElementById('prodact').value;
    switch (prodact) {
       case "candy":
          cena = 20;
