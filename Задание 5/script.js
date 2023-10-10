@@ -4,16 +4,16 @@ function raschitat() {
    switch (prodact) {
       case "candy":
          cena = 20;
-         break;
+         break
       case "marmelad":
          cena = 100;
-         break;  
+         break  
        case "cherry":
          cena = 50;
-         break; 
+         break 
        case "banana":
          cena = 70;
-         break;
+         break
    }
    ves  = document.getElementById('ves').value;
    if(ves == ""){
