@@ -1,5 +1,4 @@
 <h3>Расчет стоимости продуктов</h3>
-
 function raschitat() {
    cvet  = document.getElementById('prodact').value;
    switch (prodact) {
