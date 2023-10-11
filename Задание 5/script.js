@@ -8,5 +8,7 @@ button.onclick = function() {
     r.innerHtML = none;
   }
 stoim = v[0].value * c[0].value / 100;
-document.getElementById("stoimost").innerHTML = stoim; 
+document.getElementById("button").innerHTML = stoim; 
 }
+
+
