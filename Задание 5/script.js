@@ -1,3 +1,8 @@
+document.getElementById('button').onclick = function(){
+    st();
+};
+
+
 function st() {
   let v = document.getElementsByName("ves");
   let c = document.getElementsByName("cena");
