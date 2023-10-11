@@ -5,6 +5,8 @@ function st() {
   stoim = v * c[0].value / 100;
   console.log(st[0].value);
   
+  document.getElementById('stoimost').innerHTML=total;
+  
   if (v < 0 || c[0].value < 0 || !Number(v)) {
     alert("Так сложно ввести положительные числа?");
   }
