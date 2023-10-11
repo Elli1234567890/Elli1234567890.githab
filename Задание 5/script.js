@@ -11,3 +11,10 @@ function st() {
   }
   return false;
 }
+
+window.addEventListener('DOMContentLoaded, (event){
+    console.log("DOM fully loaded and parsed");
+    let button = document.getElementById("button");
+    button.addEventListener("Так сложно ввести положительные числа?", st());
+});
+
