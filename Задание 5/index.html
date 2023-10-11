@@ -9,18 +9,18 @@
     </head>
     <body>
         <h3>Расчет стоимости продуктов</h3>
+        <div id="stoimost"></div>
         <form>
-            <select name="prodact" multiple="multiple" size="4">
+            <input name-"ves" type="text" placeholder="укажите вес в граммах">
+            <input name-"cena" type="text" placeholder="укажите цену в соответсвием с таблицей(цена в руб за 100г">
+            <select name="stt" multiple="multiple" size="4">
                 <option value="candy">Конфеты</option>
                 <option value="marmelad">Мармелад</option>
                 <option value="cherry">Черешня</option>
                 <option value="banana">Бананы</option>
             </select>
-            <input name-"ves" type="text" placeholder="укажите вес в граммах">
-            <input name-"cena" type="text" placeholder="укажите цену в соответсвием с таблицей(цена в руб за 100г">
+            <button id="button" onclick="st()">Рассчитать стоимость</button>
         </form>
-        <button id="button" vonclick="stoimost()">Рассчитать стоимость</button>
-        <p id="stoimost"></p>
         <scrpt scr="script.js"></scrpt>
     </body>
 </html>
