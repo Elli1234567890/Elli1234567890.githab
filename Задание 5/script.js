@@ -25,7 +25,7 @@ let st = () => {
 window.addEventListener('DOMContentLoaded, (event) => {
     console.log("DOM fully loaded and parsed");
     let button = document.getElementById("form");
-    button.addEventListener("click", st());
+    button.addEventListener("click", st);
 });
 
 
