@@ -1,6 +1,9 @@
 let text = document.getElementById('stoimost')
 
-document.getElementById("button").addEventListener("click",st());
+document.getElementById("form").addEventListener("submit",function()
+                                                 {
+                                                   return st();
+                                                 });
 
 function st()
 {
