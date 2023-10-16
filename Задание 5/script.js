@@ -5,7 +5,7 @@ function st(event) {
   let v = document.getElementById("ves");
   let c = document.getElementById("cena");
   let stoim = v.value * c.value / 100;
-  if (v.value <= 0 || !Number(v))
+  if (v.value <= 0 || !Number(v.value))
     alert("Так сложно ввести положительное число?");
   else
     text.innerText = "Стоимость: " + String(c.value * v / 100) + "руб за 100г";
