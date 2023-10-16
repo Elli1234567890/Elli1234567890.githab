@@ -1,10 +1,5 @@
 let text = document.getElementById('stoimost')
 
-document.getElementById("form").addEventListener("submit",function()
-                                                 {
-                                                   return st();
-                                                 });
-
 function st()
 {
   let v = document.getElementById("ves");
