@@ -4,7 +4,7 @@
 
 
 let st = () => {
-  let v = document.getElementsByName("ves");
+  let v = document.getElementById("ves");
   let c = document.getElementsByName("cena");
   let stoim = v * c[0].value / 100;
   if (v <= 0 || !Number(v))alert("Так сложно ввести положительное число > 0?");
