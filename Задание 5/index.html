@@ -9,7 +9,7 @@
     </head>
     <body>
         <h3>Расчёт стоимости продуктов</h3>
-        <form onsubmit="return st()">
+        <form>
             <input id="ves" type="text" placeholder="укажите вес в граммах">
             <select id="cena" multiple="multiple" size="4">
                 <option value="40">Конфеты</option>
@@ -17,7 +17,7 @@
                 <option value="35">Черешня</option>
                 <option value="50">Бананы</option>
             </select>
-            <input type="submit" value="Рассчитать"><br>
+            <input type="button" id="form" value="Рассчитать"><br>
             <div id="stoimost">Стоимость: </div>
         </form>
         <script src="script.js"></script>
