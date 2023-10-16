@@ -3,8 +3,8 @@ let text = document.getElementById('stoimost')
 function st(event) {
   event.preventDefault();
   let v = document.getElementById("ves");
-  let c = document.getElementsByName("cena");
-  let stoim = v * c[0].value / 100;
+  let c = document.getElementById("cena");
+  let stoim = v.value * c.value / 100;
   if (v <= 0 || !Number(v))
     alert("Так сложно ввести положительное число?");
   else
