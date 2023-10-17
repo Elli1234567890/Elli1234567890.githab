@@ -18,7 +18,7 @@ function st(event) {
     else radio.style.display = "none";
     let ch = document.getElementId("check");
     if(c.value == 60){
-      chDiv.style.display = "block";
+      ch.style.display = "block";
       text.innerText = "Стоимость: " + String(c.value * count * ch.value / 100) + "руб за 100г";
     }
     else ch.style.display = "none";
