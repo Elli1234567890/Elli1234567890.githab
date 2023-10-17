@@ -15,13 +15,13 @@ function st(event) {
       radioDiv.style.display = "block";
       text.innerText = "Стоимость: " + String(c.value * count * radio.value / 100) + "руб за 100г";
     }
-    else radoDiv.style.display = "none";
+    else radio.style.display = "none";
     let ch = document.getElementId("check");
     if(c.value == 60){
       chDiv.style.display = "block";
       text.innerText = "Стоимость: " + String(c.value * count * ch.value / 100) + "руб за 100г";
     }
-    else chDiv.style.display = "none";
+    else ch.style.display = "none";
     if(c.value == 50 || c.value == 35){text.innerText = "Стоимость: " + String(c.value * count / 100) + "руб за 100г";
   }
 }
