@@ -15,7 +15,7 @@ function st(event) {
 
   if (v.value <= 0 || !Number(v.value))
   {
-    alert("Так сложно ввести положительное число");
+    alert("Так сложно ввести положительное число?");
     console.log(v.value);
   }
     
