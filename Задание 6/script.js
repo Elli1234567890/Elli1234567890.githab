@@ -49,4 +49,4 @@ window.addEventListener('DOMContentLoaded', (event) => {
     v.addEventListener("change",st);
     rad.addEventListener("change",st);
     checks.addEventListener("change",st);
-});С‡РјРѕРє)
+});Стоимость: )
