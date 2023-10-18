@@ -9,38 +9,36 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h3>Расчёт стоимости продуктов</h3>
+        <h3>Калькулятор стоимости</h3>
         <form>
-            <input id="ves" type="text" placeholder="укажите вес в граммах"><br>
-            <select id="cena" multiple="multiple" size="4">
+            <input id="ves" type="text" placeholder="СѓРєР°Р¶РёС‚Рµ РІРµСЃ РІ РіСЂР°РјРјР°С…"><br>
+            <select id="cena" multiple="multiple" size="3">
                 <option value="35">Черешня</option>
                 <option value="40">Конфеты</option>
                 <option value="60">Мармелад</option>
-                <option value="50">Бананы</option>
             </select><br>
             <div id="rad">
                 <label>
-                <input value="2" type="radio" name="radio-1" value="1">
-                1 опция</label>
+                <input value="2" type="radio" name="radio" value="1">
+                с орешками</label>
                 <label>
-                <input value="3" type="radio" name="radio-2" value="2">
-                2 опция</label>
+                <input value="3" type="radio" name="radio" value="2">
+                с цукатами</label>
                 <label>
-                <input value="4" type="radio" name="radio-3" value="3">
-                3 опция</label>
+                <input value="4" type="radio" name="radio" value="3">
+                с воздушным рисом</label>
             </div><br>
-            <div id="check">
+            <div id="checks">
                 <label>
-                <input value="20" type="checkbox" checked="checked" name="check-1">
+                <input value="20" type="checkbox" checked="checked" name="check">
                 Кислый</label>
                 <label>
-                <input value="30" type="checkbox" checked="checked" name="check-2">
+                <input value="30" type="checkbox" checked="checked" name="check">
                 Сладкий</label>
                 <label>
-                <input value="40" type="checkbox" checked="checked" name="check-3">
+                <input value="40" type="checkbox" checked="checked" name="check">
                 Суфле</label>
             </div><br>
-            <input type="button" id="form" value="Рассчитать"><br>
             <div id="stoimost">Стоимость: </div>
         </form>
         <script src="script.js"></script>
