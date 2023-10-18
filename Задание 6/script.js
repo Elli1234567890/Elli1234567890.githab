@@ -22,14 +22,14 @@ function st(event) {
     
   else{
     console.log("Работает");
-    let radioCost = 0
+    let radioCost = 0;
     for (let i = 0; i < radio.length;i++)
     {
       if (radio[i].checked)
         radioCost += Number(radio[i].value);
     }
 
-    let checkCost = 0
+    let checkCost = 0;
     for (let i = 0; i < ch.length;i++)
     {
       if (ch[i].checked)
@@ -37,7 +37,7 @@ function st(event) {
     }
 
     console.log(v.value, v.value, radioCost, checkCost);
-    text.innerText = "Стоимость: " + String((Number(c.value)  + ((rad.style.display == "block")? radioCost : 0) + ((checks.style.display == "block")? checkCost : 0) )* v.value);
+    text.innerText = "Стоимость: " + String((Number(c.value)  + ((rad.style.display == "block")? radioCost : ) + ((checks.style.display == "block")? checkCost : ) )* v.value);
   }
   
 };
