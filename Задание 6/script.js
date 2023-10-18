@@ -37,7 +37,7 @@ function st(event) {
     }
 
     console.log(v.value, v.value, radioCost, checkCost);
-    text.innerText = "Стоимость: " + String((Number(c.value)  + ((rad.style.display == "block")? radioCost : ) + ((checks.style.display == "block")? checkCost : ) )* v.value);
+    text.innerText = "Стоимость: " + String((Number(c.value)  + ((rad.style.display == "block")? radioCost : 0) + ((checks.style.display == "block")? checkCost : 0) )* v.value);
   }
   
 };
