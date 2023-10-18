@@ -6,9 +6,10 @@
 }
 
 body{
-  	margin: 0;
+  	margin: 5 px;
 	color:black;
 	background-color:rgb(174, 181, 245);
 	border: 7px;
 	width: 70vw;
+	text-align: center;
 }
