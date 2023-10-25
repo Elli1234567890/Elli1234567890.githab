@@ -1,13 +1,18 @@
 * {
   box-sizing: border-box;
 }
+body {
+    background-color: #3d3848;
+    padding-top: 100px;
 
-.container {
-  position: relative;
 }
 
 .mySlides {
-  display: none;
+    background-color: #26222d;
+    max-width: 1600px;
+}
+.container {
+  position: relative;
 }
 
 .cursor {
