@@ -1,11 +1,12 @@
 body {
-    background-color: #3d3848;
-    padding-top: 100px;
+    background-color: rgb(228, 157, 235);
+    padding-top: 15px;
+    text-align: center;
 
 }
 
 .mySlides {
-    background-color: #26222d;
+    background-color: rgb(228, 157, 235);
     max-width: 1600px;
 }
 .container {
