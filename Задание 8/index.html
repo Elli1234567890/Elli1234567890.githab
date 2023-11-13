@@ -9,7 +9,25 @@
     </head>
     <body>
         <h3>Форма</h3>
-        
+        <button id="openf">Открыть форму</button>
+        <div id="f">
+            <form id="form">
+                <label for="name">ФИО:</label>
+                <input type="text" id="name" class="input" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" class="input" required> 
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" class="input" required>
+                <label for="org">Организация:</label>
+                <input type="text" id="org" class="input">
+                <label for="text">Сообщение:</label>
+                <textarea id="text" rows="5" class="input"></textarea>
+                <label>
+                    <input type="checkbox" id="Checkbox" required>
+                    Даю согласие на обработку персональных данных
+                </label>
+                <button id="submit" type="submit">Отправить</button>
+            </form>
         </div>
     </body>
 </html>
