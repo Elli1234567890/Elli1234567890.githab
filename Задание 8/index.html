@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="style.css">
         <script src="script.js" defer></script>
         <title>Задание 8</title>
+        <script src="https://cdn.jsdelivr.net/npm/slapform@latest/dist/index.min.js"></script>
     </head>
     <body>
         <h3>Форма</h3>
@@ -13,21 +14,22 @@
         <div id="f">
             <form id="form">
                 <label for="name">ФИО:</label>
-                <input type="text" id="name" class="input" required>
+                <input type="text" id="name" class="input" required><br>
                 <label for="email">Email:</label>
-                <input type="email" id="email" class="input" required> 
+                <input type="email" id="email" class="input" required> <br>
                 <label for="phone">Телефон:</label>
-                <input type="tel" id="phone" class="input" required>
+                <input type="tel" id="phone" class="input" required><br>
                 <label for="org">Организация:</label>
-                <input type="text" id="org" class="input">
+                <input type="text" id="org" class="input"><br>
                 <label for="text">Сообщение:</label>
-                <textarea id="text" rows="5" class="input"></textarea>
+                <textarea id="text" rows="1" class="input"></textarea><br>
                 <label>
                     <input type="checkbox" id="Checkbox" required>
                     Даю согласие на обработку персональных данных
-                </label>
+                </label><br>
                 <button id="submit" type="submit">Отправить</button>
             </form>
         </div>
     </body>
 </html>
+
