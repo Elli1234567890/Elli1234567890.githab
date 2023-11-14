@@ -1,3 +1,6 @@
+document.getElementById("form").style.display = "none";
+
+
 function save() {
     localStorage.setItem('name', document.getElementById('name').value);
     localStorage.setItem('email', document.getElementById('email').value);
@@ -17,18 +20,49 @@ function res() {
 
 document.addEventListener("DOMContentLoaded", () => {
     let ff = document.getElementById("f");
-    let openff = document.getElementById("openf");
+    let openf = document.getElementById("openf");
     let formm = document.getElementById("form");
     let inputt = document.querySelectorAll("input");
-    btn.addEventListener("click", () => {
-        popup.style.display = "flex";
+
+    openf.addEventListener("click", () => {
+        document.getElementById("form").style.display = "block";
         history.pushState({"show_form": true}, "show_form", "?show_form=true")
     });
 
-    inputs.forEach((input) => {
+    inputt.forEach((input) => {
       input.addEventListener("input", () => {
-      saveFormValues()
+      save();
+      console.log("Saved")
       ;})
+    })
+
+    form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        var slapform = new Slapform();
+        slapform.submit({
+        form: '5AeH5iPmD',
+        data: {
+            name: document.getElementById("name").value,
+            email: document.getElementById('email').value,
+            phone: document.getElementById('phone').value,
+            organization: document.getElementById('org').value,
+            text: document.getElementById('text').value
+        }
+        })
+        .then(function (response) {
+        console.log('Success', response);
+        history.back();
+        })
+        .catch(function (e) {
+        console.error('Fail', e)
+        })
+    });
+    window.addEventListener("popstate", () => {
+        ff.style.display = "none";
+    })
+    res();
+});
+
     })
 
     form.addEventListener("submit", (event) => {
