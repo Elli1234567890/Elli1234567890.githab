@@ -62,39 +62,3 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     res();
 });
-
-    })
-
-    form.addEventListener("submit", (event) => {
-        event.preventDefault();
-        fetch(" ", {
-            method: "POST",
-            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-            body: JSON.stringify({
-                    name: document.getElementById('name').value,
-                    email: document.getElementById('email').value,
-                    phone: document.getElementById('phone').value,
-                    org: document.getElementById('org').value,
-                    text: document.getElementById('text').value,
-            })
-        })
-        .then((response) => {
-            if(response.ok) {
-                alert("Форма отправлена успешно!");
-                form.reset();
-                localStorage.clear();
-            }
-            else {
-                throw new Error('Ошибка при отправке формы.');
-            }
-        })
-        .catch((err) => {
-            alert(err);
-        })
-        history.back();
-    });
-    window.addEventListener("popstate", () => {
-        ff.style.display = "none";
-    })
-    res();
-});
